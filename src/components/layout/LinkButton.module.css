@@ -6,7 +6,7 @@
   border-radius: 8px;
 
   text-decoration: none;
-  transition: 2s;
+  transition: 0.5s;
   display: flex;
   text-align: center;
   align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .btn:hover {
-  transition: 1s;
+  transition: 0.5s;
   width: 14em;
   color: #ffbb33;
 }
