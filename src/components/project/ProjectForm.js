@@ -1,8 +1,9 @@
 import styles from "./ProjectForm.module.css";
 import Input from "../form/Input";
+import Select from "../form/Select";
+import SubmitButton from "../form/SubmitButton";
 
 function ProjectForm() {
-  var valueSubmit = "Create Project";
   return (
     <form className={styles.form}>
       <Input
@@ -17,18 +18,8 @@ function ProjectForm() {
         name="budget"
         placeholder="Enter the budget"
       />
-
-      <div>
-        <input type="number" placeholder="Enter the budget" />
-      </div>
-      <div>
-        <select name="category_id">
-          <option disabled selected>
-            Enter the category
-          </option>
-        </select>
-      </div>
-      <input type="submit" value={valueSubmit} />
+      <Select name="category_id" text="Select an category" />
+      <SubmitButton text="Create project"/>
     </form>
   );
 }
