@@ -28,12 +28,11 @@ function Projects() {
       })
         .then((resp) => resp.json())
         .then((data) => {
-          console.log(data);
           setProjects(data);
           setRemoveLoading(true);
         })
         .catch((err) => console.log(err));
-    }, 500);
+    }, 100);
   }, []);
 
   function removeProject(id) {
