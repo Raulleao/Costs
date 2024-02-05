@@ -1,12 +1,23 @@
 {
   "projects": [
     {
-      "id": "20b9",
+      "id": "64ca",
       "name": "raul",
-      "budget": "12",
+      "budget": "1",
       "category": {
         "id": "2",
         "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "2f2a",
+      "name": "PDS1",
+      "budget": "1500",
+      "category": {
+        "id": "1",
+        "name": "infra"
       },
       "cost": 0,
       "services": []
