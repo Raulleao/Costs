@@ -71,7 +71,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
         handleOnChange={handleCategory}
         value={project.category ? project.category.id : ""}
       />
-      <SubmitButton text="Create project" />
+      <SubmitButton text={btnText} />
     </form>
   );
 }
