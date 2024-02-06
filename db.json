@@ -19,6 +19,24 @@
         "id": "1",
         "name": "infra"
       },
+      "cost": 1200,
+      "services": [
+        {
+          "name": "dindin",
+          "cost": "1200",
+          "description": "limpeza",
+          "id": "5c096a3b-ede6-458e-b397-c8f03a397a43"
+        }
+      ]
+    },
+    {
+      "id": "4c22",
+      "name": "raul",
+      "budget": "11221212",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
       "cost": 0,
       "services": []
     }
