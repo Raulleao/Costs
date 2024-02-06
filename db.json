@@ -39,6 +39,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "c317",
+      "name": "Desenvolver SmartFit",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
